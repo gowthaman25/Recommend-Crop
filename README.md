@@ -1,5 +1,5 @@
 # Recommend-Crop 🌿
-#### A simple ML and DL based website which recommends the best crop to grow, fertilizers to use and the diseases caught by your crops.
+#### A simple ML and DL based website which recommends the best crop to grow, fertilizers to use and the diseases caught by your crops. Here for few crops model is build, this can be extended further.
 
 #### This project is created based on (https://github.com/Gladiator07/Harvestify/) 
 
