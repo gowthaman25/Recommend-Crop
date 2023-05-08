@@ -38,8 +38,10 @@ class BasicBlock(nn.Module):
 
 class ResNet(nn.Module):
 
-    def __init__(self, block, layers, num_diseases):
+    def __init__(self, layers, num_diseases):
         super().__init__()
+        
+        block = BasicBlock
         
         self.inplanes = 64
 
@@ -93,7 +95,7 @@ class ResNet(nn.Module):
 
         return x 
     
-def Resnet34():
+""" def Resnet34():
     layers=[3, 4, 6, 3]
-    model = ResNet(BasicBlock, layers)
-    return model
+    model = ResNet(layers,3)
+    return model """
